@@ -2,7 +2,7 @@
 #Date : 2017-05-02
 #Author : Huchunhe
 #Check the html
-#Version : 1.1
+#Version : 1.2
 
 BaseDir="/var/www/html"
 BaseName="index.html"
@@ -15,3 +15,5 @@ if [ $Mouth != "May" || $Day -ne 2 || $Time != "18:36" ];then
 else
     echo "The index.html file not change"
 fi
+
+exit 0
